@@ -18,7 +18,7 @@
 ### Key Highlights
 
 - **Cross-Tier Ranking Superiority:** Across five comprehensive benchmark panels (CMTEB-R, MMTEB-R, BEIR, MLDR, and MTEB-Code), **Yuanbao-Reranker-0.6B** reaches **70.96 Avg.**, outperforming Qwen3-Reranker-0.6B (+3.64), jina-reranker-v3.5 (+2.78), and 1B–4B active-parameter baselines such as KaLM-Reranker-Large-R2 (69.73). **Yuanbao-Reranker-4B** reaches **73.63 Avg.** to surpass the 8B teacher (Qwen3-Reranker-8B, 72.68), and **Yuanbao-Reranker-8B** achieves a state-of-the-art **74.21 Avg.**
-- **Document-Grounded Synthesis & Stratified Group Curation:** Constructed 2.75M 1:3 ranking groups by combining *answer-first* and *query-type-guided* synthesis with a three-stage curation funnel (teacher verification, semantic deduplication, and source-by-length quota allocation) and teacher-screened ($\Delta > 1$) difficulty-stratified negative mining (*Hard*, *Medium*, and *Moderate* tiers).
+- **Document-Grounded Synthesis & Stratified Group Curation:** Constructed 2.75M 1:3 ranking groups by combining *answer-first* and *query-type-guided* synthesis with a three-stage curation funnel (teacher verification, semantic deduplication, and source-by-length quota allocation) and teacher-screened (Δ > 1) difficulty-stratified negative mining (*Hard*, *Medium*, and *Moderate* tiers).
 - **Bounded Minimum-Gap Preference Distillation:** Jointly optimizes pointwise `yes`/`no` cross-entropy with a capped one-sided pairwise hinge objective over both positive–negative and negative–negative pairs, followed by layerwise **Adaptive LERP** model merging with zero additional inference overhead.
 
 <div align="center">
