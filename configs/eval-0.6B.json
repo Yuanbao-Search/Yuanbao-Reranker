@@ -1,0 +1,27 @@
+{
+  "defaults": {
+    "batch_size": 16,
+    "tensor_parallel_size": 8,
+    "dtype": "float16",
+    "max_model_len": 10000,
+    "max_num_seqs": 1024,
+    "gpu_memory_utilization": 0.8,
+    "enable_prefix_caching": true,
+    "distributed_executor_backend": "ray"
+  },
+  "benchmarks": {
+    "MLDR": {
+      "max_num_seqs": 512
+    },
+    "MTEB-Code": {
+      "batch_size": 512,
+      "tensor_parallel_size": 1,
+      "max_num_seqs": 512,
+      "distributed_executor_backend": "uni"
+    }
+  },
+  "environment": {
+    "VLLM_USE_V1": "1",
+    "VLLM_ENABLE_V1_MULTIPROCESSING": "0"
+  }
+}

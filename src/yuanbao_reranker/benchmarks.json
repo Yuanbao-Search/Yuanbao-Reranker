@@ -1,0 +1,947 @@
+[
+  {
+    "benchmark": "CMTEB-R",
+    "task": "T2Retrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "8731a845f1bf500a4f111cf1070785c793d10e64"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "MMarcoRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "539bbde593d947e2a124ba72651aafc09eb33fc2"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "DuRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "a1a333e290fe30b10f3f56498e3a0d911a693ced"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "CovidRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "1271c7809071a13532e05f25fb53511ffce77117"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "CmedqaRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "cd540c506dae1cf9e9a59c3e06f42030d54e7301"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "EcomRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "687de13dc7294d6fd9be10c6945f9e8fec8166b9"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "MedicalRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "2039188fb5800a9803ba5048df7b76e6fb151fc6"
+  },
+  {
+    "benchmark": "CMTEB-R",
+    "task": "VideoRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "58c2597a5943a2ba48f4668c3b90d796283c5639"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "TRECCOVID",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "bb9466bac8153a0349341eb1b22e06409e78ef4e"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "NFCorpus",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "ec0fa4fe99da2ff19ca1214b7966684033a58814"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "NQ",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "b774495ed302d8c44a3a7ea25c90dbce03968f31"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "HotpotQA",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "ab518f4d6fcca38d87c25209f94beba119d02014"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "FiQA2018",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "27a168819829fe9bcd655c2df245fb19452e8e06"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "ArguAna",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "c22ab2a51041ffd869aaddef7af8d8215647e41a"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "Touche2020",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "a34f9a33db75fa0cbb21bb5cfc3dae8dc8bec93f"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackAndroidRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "f46a197baaae43b4f621051089b82a364682dfeb"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackEnglishRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "ad9991cb51e31e31e430383c75ffb2885547b5f0"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackGamingRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "4885aa143210c98657558c04aaf3dc47cfb54340"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackGisRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "5003b3064772da1887988e05400cf3806fe491f2"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackMathematicaRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "90fceea13679c63fe563ded68f3b6f06e50061de"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackPhysicsRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "79531abbd1fb92d06c6d6315a0cbbbf5bb247ea4"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackProgrammersRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "6184bc1440d2dbc7612be22b50686b8826d22b32"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackStatsRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "65ac3a16b8e91f9cee4c9828cc7c335575432a2a"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackTexRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "46989137a86843e03a6195de44b09deda022eec7"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackUnixRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "6c6430d3a6d36f8d2a829195bc5dc94d7e063e53"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackWebmastersRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "160c094312a0e1facb97e55eeddb698c0abe3571"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "CQADupstackWordpressRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "4ffe81d471b1924886b33c7567bfb200e9eec5c4"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "QuoraRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "e4e08e0b7dbe3c8700f0daef558ff32256715259"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "DBPedia",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "c0f706b76e590d620bd6618b3ca8efdd34e2d659"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "SCIDOCS",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "f8c2fcf00f625baaa80f62ec5bd9e1fff3b8ae88"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "FEVER",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "bea83ef9e8fb933d90a2f1d5515737465d613e12"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "ClimateFEVER",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "47f2ac6acb640fc46020b02a5b59fdda04d39380"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "SciFact",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "0228b52cf27578f30900b9e5271d331663a030d7"
+  },
+  {
+    "benchmark": "BEIR",
+    "task": "MSMARCO",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "c5a29a104738b98a9e76336939199e264163d4a0"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "StackOverflowQA",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "db8f169f3894c14a00251061f957b2063eef2bd5"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "TwitterHjerneRetrieval",
+    "subset": "default",
+    "split": "train",
+    "dataset_revision": "099ee143c7fdfa6bd7965be8c801cb161c313b29"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "AILAStatutes",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "ebfcd844eadd3d667efa3c57fc5c8c87f5c2867e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "ArguAna",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "c22ab2a51041ffd869aaddef7af8d8215647e41a"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "HagridRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "b2a085913606be3c4f2f1a8bff1810e38bade8fa"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "LegalBenchCorporateLobbying",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "f69691c650464e62546d7f2a4536f8f87c891e38"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "LEMBPasskeyRetrieval",
+    "subset": "default",
+    "split": "test_256",
+    "dataset_revision": "6e346642246bfb4928c560ee08640dc84d074e8c"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "SCIDOCS",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "f8c2fcf00f625baaa80f62ec5bd9e1fff3b8ae88"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "SpartQA",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "9ab3ca3ccdd0d43f9cd6d346a363935d127f4f45"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "TempReasonL1",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "9097e99aa8c9d827189c65f2e11bfe756af439f6"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "TRECCOVID",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "bb9466bac8153a0349341eb1b22e06409e78ef4e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WinoGrande",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "f74c094f321077cf909ddfb8bccc1b5912a4ac28"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "StatcanDialogueDatasetRetrieval",
+    "subset": "english",
+    "split": "dev",
+    "dataset_revision": "7a26938c93e99e0759a1df416896bb72527e2f33"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "StatcanDialogueDatasetRetrieval",
+    "subset": "french",
+    "split": "dev",
+    "dataset_revision": "7a26938c93e99e0759a1df416896bb72527e2f33"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "bg",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "bn",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "cs",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "da",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "de",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "en",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "fa",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "fi",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "hi",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "it",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "nl",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "pt",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "ro",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "sr",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "no",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "WikipediaRetrievalMultilingual",
+    "subset": "sv",
+    "split": "test",
+    "dataset_revision": "3b6ea595c94bac3448a2ad167ca2e06abd340d6e"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "CovidRetrieval",
+    "subset": "default",
+    "split": "dev",
+    "dataset_revision": "1271c7809071a13532e05f25fb53511ffce77117"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "ar",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "bn",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "de",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "en",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "es",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "fa",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "fi",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "fr",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "hi",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "id",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "ja",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "ko",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "ru",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "sw",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "te",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "th",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "yo",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MMTEB-R",
+    "task": "MIRACLRetrievalHardNegatives",
+    "subset": "zh",
+    "split": "dev",
+    "dataset_revision": "95c8db7d4a6e9c1d8a60601afd63d553ae20a2eb"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "ar",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "de",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "en",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "es",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "fr",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "hi",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "it",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "ja",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "ko",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "pt",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "ru",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "th",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MLDR",
+    "task": "MultiLongDocRetrieval",
+    "subset": "zh",
+    "split": "test",
+    "dataset_revision": "d67138e705d963e346253a80e59676ddb418810a"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "python",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "javascript",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "typescript",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "go",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "ruby",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "java",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "php",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "c",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "c++",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "rust",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "swift",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "scala",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeEditSearchRetrieval",
+    "subset": "shell",
+    "split": "train",
+    "dataset_revision": "4e51c66e0939303f6928472f13ad0848b2a3f4c0"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "StackOverflowQA",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "db8f169f3894c14a00251061f957b2063eef2bd5"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "AppsRetrieval",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "f22508f96b7a36c2415181ed8bb76f76e04ae2d5"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeFeedbackMT",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "b0f12fa0c0dd67f59c95a5c33d02aeeb4c398c5f"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeFeedbackST",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "d213819e87aab9010628da8b73ab4eb337c89340"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetCCRetrieval",
+    "subset": "python",
+    "split": "test",
+    "dataset_revision": "6e1effa2c03723c5fde48ee912b5ee08d4f211e8"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetCCRetrieval",
+    "subset": "javascript",
+    "split": "test",
+    "dataset_revision": "6e1effa2c03723c5fde48ee912b5ee08d4f211e8"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetCCRetrieval",
+    "subset": "go",
+    "split": "test",
+    "dataset_revision": "6e1effa2c03723c5fde48ee912b5ee08d4f211e8"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetCCRetrieval",
+    "subset": "ruby",
+    "split": "test",
+    "dataset_revision": "6e1effa2c03723c5fde48ee912b5ee08d4f211e8"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetCCRetrieval",
+    "subset": "java",
+    "split": "test",
+    "dataset_revision": "6e1effa2c03723c5fde48ee912b5ee08d4f211e8"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetCCRetrieval",
+    "subset": "php",
+    "split": "test",
+    "dataset_revision": "6e1effa2c03723c5fde48ee912b5ee08d4f211e8"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetRetrieval",
+    "subset": "python",
+    "split": "test",
+    "dataset_revision": "fdc6a9e39575768c27eb8a2a5f702bf846eb4759"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetRetrieval",
+    "subset": "javascript",
+    "split": "test",
+    "dataset_revision": "fdc6a9e39575768c27eb8a2a5f702bf846eb4759"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetRetrieval",
+    "subset": "go",
+    "split": "test",
+    "dataset_revision": "fdc6a9e39575768c27eb8a2a5f702bf846eb4759"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetRetrieval",
+    "subset": "ruby",
+    "split": "test",
+    "dataset_revision": "fdc6a9e39575768c27eb8a2a5f702bf846eb4759"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetRetrieval",
+    "subset": "java",
+    "split": "test",
+    "dataset_revision": "fdc6a9e39575768c27eb8a2a5f702bf846eb4759"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeSearchNetRetrieval",
+    "subset": "php",
+    "split": "test",
+    "dataset_revision": "fdc6a9e39575768c27eb8a2a5f702bf846eb4759"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeTransOceanContest",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "20da4eb20a4b17300c0986ee148c90867a7f2a4d"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CodeTransOceanDL",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "281562cb8a1265ab5c0824bfa6ddcd9b0a15618f"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "CosQA",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "bc5efb7e9d437246ce393ed19d772e08e4a79535"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "COIRCodeSearchNetRetrieval",
+    "subset": "python",
+    "split": "test",
+    "dataset_revision": "4adc7bc41202b5c13543c9c886a25f340634dab3"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "COIRCodeSearchNetRetrieval",
+    "subset": "javascript",
+    "split": "test",
+    "dataset_revision": "4adc7bc41202b5c13543c9c886a25f340634dab3"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "COIRCodeSearchNetRetrieval",
+    "subset": "go",
+    "split": "test",
+    "dataset_revision": "4adc7bc41202b5c13543c9c886a25f340634dab3"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "COIRCodeSearchNetRetrieval",
+    "subset": "ruby",
+    "split": "test",
+    "dataset_revision": "4adc7bc41202b5c13543c9c886a25f340634dab3"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "COIRCodeSearchNetRetrieval",
+    "subset": "java",
+    "split": "test",
+    "dataset_revision": "4adc7bc41202b5c13543c9c886a25f340634dab3"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "COIRCodeSearchNetRetrieval",
+    "subset": "php",
+    "split": "test",
+    "dataset_revision": "4adc7bc41202b5c13543c9c886a25f340634dab3"
+  },
+  {
+    "benchmark": "MTEB-Code",
+    "task": "SyntheticText2SQL",
+    "subset": "default",
+    "split": "test",
+    "dataset_revision": "686b87296c3a0191b5d9415a00526c62db9fce09"
+  }
+]

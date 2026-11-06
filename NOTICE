@@ -1,0 +1,14 @@
+Yuanbao-Reranker
+
+This project builds upon the Qwen3 model family:
+https://github.com/QwenLM/Qwen3
+https://huggingface.co/Qwen
+Copyright 2025 The Qwen team, Alibaba Group. Qwen model weights are distributed under Apache-2.0.
+
+Training prompt formatting and response-preserving truncation follow LLaMA-Factory:
+https://github.com/hiyouga/LLaMA-Factory
+Copyright 2024 the LlamaFactory team.
+The included implementation adapts these conventions into a grouped Hugging Face Trainer entry point.
+The upstream Apache-2.0 license is retained in licenses/LLaMA-Factory-Apache-2.0.txt.
+
+MTEB and pytrec_eval are external evaluation dependencies and retain their respective licenses.

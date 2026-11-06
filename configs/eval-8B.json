@@ -1,0 +1,17 @@
+{
+  "defaults": {
+    "batch_size": 64,
+    "tensor_parallel_size": 1,
+    "dtype": "float16",
+    "max_model_len": 10000,
+    "max_num_seqs": 512,
+    "gpu_memory_utilization": 0.8,
+    "enable_prefix_caching": true,
+    "distributed_executor_backend": "uni"
+  },
+  "benchmarks": {},
+  "environment": {
+    "VLLM_USE_V1": "1",
+    "VLLM_ENABLE_V1_MULTIPROCESSING": "0"
+  }
+}

@@ -1,0 +1,3 @@
+mteb==1.38.9
+datasets==2.21.0
+transformers==4.51.3

@@ -1,0 +1,5 @@
+vllm==0.8.5.post1
+torch==2.6.0
+transformers==4.51.3
+ray==2.56.1
+pytrec-eval-terrier==0.5.6
